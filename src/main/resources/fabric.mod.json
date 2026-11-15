@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "micromod",
+  "version": "1.0.0",
+  "name": "Micro Mod",
+  "description": "Eigener Client-Mod: Noclip, Freecam, X-Ray (Erz-ESP) und Lagerbehaelter-ESP.",
+  "authors": ["Ich"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.micromod.MicroModClient"]
+  },
+  "mixins": ["micromod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
