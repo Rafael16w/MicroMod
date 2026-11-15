@@ -20,7 +20,7 @@ jobs:
           java-version: '21'
           distribution: temurin
 
-      - name: Mod bauen
+      - name: Setup Java 25
         run: |
           chmod +x ./gradlew
           ./gradlew build --no-daemon
